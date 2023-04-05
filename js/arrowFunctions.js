@@ -7,7 +7,7 @@ const calculateAge3 = (birthYear) => currentYear - birthYear;
 const age3 = calculateAge3(1993);
 console.log("Age:", age3);
 
-//
+// A code block is required here
 const retirementAge = 60;
 
 const yearsUntilRetirement = (birthYear, firstName) => {
@@ -19,3 +19,4 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1993, "Denis"));
 console.log(yearsUntilRetirement(1992, "Stella"));
 console.log(yearsUntilRetirement(1990, "Joe"));
+  
