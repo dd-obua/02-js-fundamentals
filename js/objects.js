@@ -21,3 +21,15 @@ console.log(denisObject.lastName, denisObject["age"]);
 
 const nameKey = "Name";
 console.log(denisObject["first" + nameKey], denisObject[`last${nameKey}`]);
+
+const interestedIn = prompt(
+  "What would you like to know about Denis? (Choose firstName, lastName, age, job, or friends)."
+);
+
+if (denisObject[interestedIn]) {
+  console.log(denisObject[interestedIn]);
+} else {
+  console.log(
+    "Wrong selection! What would you like to know about Denis? (Choose firstName, lastName, age, job, or friends)."
+  );
+}
