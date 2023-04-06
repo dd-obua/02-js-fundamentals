@@ -23,3 +23,7 @@ lostFriend = friends.pop(); // pop method returns the element that was removed
 numberOfFriends = friends.length;
 console.log(`I just lost ${lostFriend}.`);
 console.log(`I have ${numberOfFriends} friends:`, friends);
+
+// Identifying position of an array element
+let position = friends.indexOf("Richard");
+console.log(`Richard's position: ${position}`);
