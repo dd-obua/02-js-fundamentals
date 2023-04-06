@@ -38,3 +38,8 @@ if (denisObject[interestedIn]) {
 denisObject.location = "Uganda";
 denisObject.twitter = "@denisdanielobua1";
 console.log(denisObject);
+
+// Challenge: Produce the string "Denis has 3 friends, and his best friend is called Peter."
+console.log(
+  `${denisObject.firstName} has ${denisObject.friends.length} friends, and his best friend is called ${denisObject.friends[1]}.`
+);
