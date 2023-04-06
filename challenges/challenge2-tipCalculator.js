@@ -7,3 +7,6 @@ const calcTip = (bill) =>
 
 const tip = calcTip(bill);
 console.log(`Bill: $100, Tip: $${tip}`);
+
+const bills = [125, 555, 44];
+console.log(bills);
