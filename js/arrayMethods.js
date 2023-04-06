@@ -29,5 +29,5 @@ let position = friends.indexOf("Richard");
 console.log(`Richard's position: ${position}`);
 
 // Checking if something is exists in the array
-console.log(`Peter is my friend: ${friends.includes("Peter")}`);
+console.log(`Peter is my friend: ${friends.includes("Peter")}`); // includes method does strict comparision
 console.log(`Edwin is my friend: ${friends.includes("Edwin")}`);
