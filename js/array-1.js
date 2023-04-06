@@ -11,4 +11,8 @@ console.log("Array length:", friends.length);
 console.log("Last array element:", friends[friends.length - 1]); // returns the last element of the array
 
 friends[2] = "Roy";
-  
+
+// Arrays with elements of different data types
+const firstName = "Denis";
+const denis = [firstName, "Obua", 1993, "Software engineer (Web developer)"];
+console.log(denis);
