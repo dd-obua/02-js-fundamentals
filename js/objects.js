@@ -33,3 +33,8 @@ if (denisObject[interestedIn]) {
     "Wrong selection! What would you like to know about Denis? (Choose firstName, lastName, age, job, or friends)."
   );
 }
+
+// Adding new properties to an object
+denisObject.location = "Uganda";
+denisObject.twitter = "@denisdanielobua1";
+console.log(denisObject);
