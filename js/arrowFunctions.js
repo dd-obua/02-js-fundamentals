@@ -19,4 +19,3 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1993, "Denis"));
 console.log(yearsUntilRetirement(1992, "Stella"));
 console.log(yearsUntilRetirement(1990, "Joe"));
-  
