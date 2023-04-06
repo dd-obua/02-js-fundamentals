@@ -27,3 +27,7 @@ console.log(`I have ${numberOfFriends} friends:`, friends);
 // Identifying position of an array element
 let position = friends.indexOf("Richard");
 console.log(`Richard's position: ${position}`);
+
+// Checking if something is exists in the array
+console.log(`Peter is my friend: ${friends.includes("Peter")}`);
+console.log(`Edwin is my friend: ${friends.includes("Edwin")}`);
