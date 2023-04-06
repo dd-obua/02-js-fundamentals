@@ -13,6 +13,11 @@ const denisObject = {
   firstName: "Denis",
   lastName: "Obua",
   age: currentYear - birthYear,
-  job: "Software Engineer / Web Developer",
+  job: "Software Engineer (Web Developer)",
   friends: ["Geoffrey", "Peter", "Richard"]
 };
+console.log(denisObject);
+console.log(denisObject.lastName, denisObject["age"]);
+
+const nameKey = "Name";
+console.log(denisObject["first" + nameKey], denisObject[`last${nameKey}`]);
