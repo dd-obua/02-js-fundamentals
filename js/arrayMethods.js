@@ -13,13 +13,13 @@ numberOfFriends = friends.unshift("Morish"); // unshift method returns the curre
 console.log(`I have ${numberOfFriends} friends:`, friends);
 
 // Removing the first array element
-lostFriend = friends.shift(); // returns the element that was removed
+lostFriend = friends.shift(); // shift method returns the element that was removed
 console.log(`I just lost ${lostFriend}.`);
 numberOfFriends = friends.length;
 console.log(`I have ${numberOfFriends} friends:`, friends);
 
 // Removing the last element of an array
-let lostFriend = friends.pop(); // returns the element that was removed
+let lostFriend = friends.pop(); // pop method returns the element that was removed
 numberOfFriends = friends.length;
 console.log(`I just lost ${lostFriend}.`);
 console.log(`I have ${numberOfFriends} friends:`, friends);
