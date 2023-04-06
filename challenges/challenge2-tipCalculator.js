@@ -10,3 +10,10 @@ console.log(`Bill: $100, Tip: $${tip}`);
 
 const bills = [125, 555, 44];
 console.log(bills);
+
+const tips = [
+  calcTip(bills[0]),
+  calcTip(bills[1]),
+  calcTip(bills[2]),
+  calcTip(bills[3]),
+];
