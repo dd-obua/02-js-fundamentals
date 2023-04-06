@@ -1,4 +1,5 @@
-// Tip calculator challenge
+// Tip calculator challenge 
+// A tip is an extra payment made in order to ensure a faster service delivery on the next or subsequent visit
 
 const bill = 100;
 
