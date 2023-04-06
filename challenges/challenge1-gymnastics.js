@@ -2,8 +2,8 @@ const calcAverage = (x, y, z) => (x + y + z) / 3;
 
 // Given Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 
-const averageDolphins = calcAverage(44, 23, 71);
-const averageKoalas = calcAverage(65, 54, 49);
+let averageDolphins = calcAverage(44, 23, 71);
+let averageKoalas = calcAverage(65, 54, 49);
 
 const checkWinner = function (avgDolphins, avgKoalas) {
   if (averageDolphins >= 2 * averageKoalas) {
@@ -16,3 +16,5 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 };
 
 console.log(checkWinner(averageDolphins, averageKoalas));
+
+// Given Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
