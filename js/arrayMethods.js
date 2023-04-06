@@ -31,3 +31,7 @@ console.log(`Richard's position: ${position}`);
 // Checking if something is exists in the array
 console.log(`Peter is my friend: ${friends.includes("Peter")}`); // includes method does strict comparision
 console.log(`Edwin is my friend: ${friends.includes("Edwin")}`);
+
+if (friends.includes("Geoffrey")) {
+  console.log("You have a friend called Geoffrey.");
+}
