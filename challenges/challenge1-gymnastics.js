@@ -17,7 +17,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   if (averageDolphins >= 2 * averageKoalas) {
     return `Dolphins win (${averageDolphins} vs. ${averageKoalas}).`;
   } else if (averageKoalas >= 2 * averageDolphins) {
-    return `Koalas win (${averageKoalas} vs. ${averageDolphins}13).`;
+    return `Koalas win (${averageKoalas} vs. ${averageDolphins}).`;
   } else {
     return "No team wins!";
   }
