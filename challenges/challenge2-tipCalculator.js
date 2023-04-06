@@ -9,18 +9,10 @@ const tip = calcTip(bill);
 console.log(`Bill: $100, Tip: $${tip}`);
 
 const bills = [125, 555, 44];
-console.log(bills);
+console.log("Bills:", bills);
 
-const tips = [
-  calcTip(bills[0]),
-  calcTip(bills[1]),
-  calcTip(bills[2]),
-  calcTip(bills[3]),
-];
-console.log(tips);
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+console.log("Tips:", tips);
 
-const total = [
-  (bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]) +
-    (bills[3] + tips[3]),
-];
-console.log(total);
+const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+console.log("Total:", total);
