@@ -9,9 +9,10 @@ const dan = {
   hasDriversLicence: false,
 
   calcAge: function () {
-    return currentYear - this.birthYear;
+    this.age = currentYear - this.birthYear;
+    return this.age;
   }
 };
 
-const ageDan = dan.calcAge();
-console.log("Dan's age:", ageDan);
+console.log(dan.calcAge()); // method call is still necessary
+console.log("Dan's age:", dan.age);
