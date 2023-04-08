@@ -14,9 +14,9 @@ const dan = {
   },
 
   getSummary: function () {
-    return `${this.firstName} is a ${this.age}-year old ${this.job}, and he ${
-      this.hasDriversLicence ? "has a" : "has no"
-    } driver's licence.`;
+    return `${this.firstName} is a ${this.age}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicence ? "a" : "no"} driver's licence.`;
   }
 };
 
