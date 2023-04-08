@@ -13,5 +13,5 @@ const dan = {
   }
 };
 
-const age = dan.calcAge(1993);
-console.log("Dan's age:", age);
+const ageDan = dan.calcAge();
+console.log("Dan's age:", ageDan);
