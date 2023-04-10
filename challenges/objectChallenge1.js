@@ -1,5 +1,6 @@
 // Comparing BMI
-markObj = {
+
+const markObj = {
   firstName: "Mark",
   lastName: "Miller",
   mass: 78,
