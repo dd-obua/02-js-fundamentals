@@ -10,6 +10,7 @@ const dan = [
 ];
 
 // Read only string values from an array
+console.log("--- Only strings ---");
 for (let i = 0; i < dan.length; i++) {
   if (typeof dan[i] !== "string") continue;
 
