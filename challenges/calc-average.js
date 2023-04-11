@@ -1,4 +1,4 @@
-// Calculating the average of an array of numbers
+// Calculate the average of an array of numbers
 
 const calcAverage = function (arr) {
   let sum = 0;
