@@ -1,7 +1,7 @@
 // Comparing BMI
 
 const markObj = {
-  firstName: "Mark Miller",
+  fullName: "Mark Miller",
   mass: 78,
   height: 1.69,
   calcBMI: function () {
@@ -12,7 +12,7 @@ const markObj = {
 const bmiMark = markObj.calcBMI().toFixed(1);
 
 johnObj = {
-  firstName: "John Smith",
+  fullName: "John Smith",
   mass: 93,
   height: 1.95,
   calcBMI: function () {
