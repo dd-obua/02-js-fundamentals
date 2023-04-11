@@ -17,3 +17,13 @@ for (let i = 0; i < dan.length; i++) {
 
   console.log(`${typeof dan[i]}: ${dan[i]}`);
 }
+
+console.log();
+
+// break - terminates the entire loop from the point it is encountered
+console.log("--- break with number ---");
+for (let i = 0; i < dan.length; i++) {
+  if (typeof dan[i] === "number") break;
+
+  console.log(`${typeof dan[i]}: ${dan[i]}`);
+}
