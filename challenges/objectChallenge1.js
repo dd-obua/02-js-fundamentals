@@ -25,7 +25,11 @@ johnObj = {
 const bmiJohn = johnObj.calcBMI().toFixed(1);
 
 if (bmiJohn > bmiMark) {
-  console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})!`);
+  console.log(
+    `John Smith's BMI (${bmiJohn}) is higher than Mark Miller's (${bmiMark})!`
+  );
 } else {
-  console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})!`);
+  console.log(
+    `Mark Miller's BMI (${bmiMark}) is higher than John Smith's (${bmiJohn})!`
+  );
 }
