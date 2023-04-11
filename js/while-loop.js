@@ -5,6 +5,8 @@ while (rep <= 10) {
   rep++;
 }
 
+console.log();
+
 // Roll dice
 let dice = Math.trunc(Math.random() * 6) + 1;
 
@@ -13,3 +15,5 @@ while (dice !== 6) {
 
   dice = Math.trunc(Math.random() * 6) + 1;
 }
+
+console.log(`I got a ${dice}!`);
