@@ -21,7 +21,10 @@ const types = [];
 for (let i = 0; i < dan.length; i++) {
   console.log(dan[i], typeof dan[i]);
 
-  types[i] = typeof dan[i];
+  // Filling  types array
+  // types[i] = typeof dan[i];  
+
+  types.push(typeof dan[i]);
 }
 
 console.log();
