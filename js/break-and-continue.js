@@ -1,5 +1,6 @@
 // break and continue statements
 
+// continue statement - coninue skips the current iteration
 const dan = [
   "Denis",
   "Obua",
